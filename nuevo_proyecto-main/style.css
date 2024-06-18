@@ -1,0 +1,88 @@
+body {
+  color: antiquewhite;
+  font: oblique bold 120% cursive;
+  background-color: black;
+}
+.carta {
+  color: antiquewhite;
+  font: oblique bold 120% cursive;
+}
+.title {
+  color: rgb(92, 92, 92);
+  font: oblique bold 120% cursive;
+}
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0b8b8;
+    margin: 0;
+    font-family: cursive, sans-serif;
+}
+
+.login-container {
+    background-color: #ffe4e1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #b56576;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #6d597a;
+}
+
+input[type="text"], input[type="pedromo"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8edeb;
+}
+
+input[type="text"], input[type="sofia"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8edeb;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b56576;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d597a;
+}
+
+#message {
+    margin-top: 20px;
+    color: red;
+}
+
+
+
